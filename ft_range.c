@@ -1,4 +1,4 @@
-#include <stdlib.h>
+// #include <stdlib.h>
 
 int *ft_range(int start, int end) {
     int size = (end >= start) ? end - start + 1 : start - end + 1;
