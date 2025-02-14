@@ -1,4 +1,4 @@
-#include <unistd.h>
+// #include <unistd.h>
 
 void rostring(char *str) {
     int i = 0;
@@ -51,11 +51,11 @@ void rostring(char *str) {
     write(1, "\n", 1);
 }
 
-int main(int argc, char **argv) {
-    if (argc >= 2) {
-        rostring(argv[1]);
-    } else {
-        write(1, "\n", 1);
-    }
-    return 0;
-}
+// int main(int argc, char **argv) {
+//     if (argc >= 2) {
+//         rostring(argv[1]);
+//     } else {
+//         write(1, "\n", 1);
+//     }
+//     return 0;
+// }
